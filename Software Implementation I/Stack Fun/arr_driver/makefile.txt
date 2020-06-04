@@ -1,0 +1,14 @@
+# target: dependencies
+# <tab> rule
+
+# make (without arguments) executes first rule in file
+# Ideally, one target for every object file and a target for final binary. 
+
+arr_driver.c: CodeCamp.o CodeCampTester.o
+	c99 -o check arr_driver.c stack312_arr.c
+
+stack_arr.c: stack_arr.c
+	c99 -c stack_arr.c
+
+#CodeCampTester.o: CodeCampTester.c
+#	c99 -c .c

@@ -1,0 +1,1 @@
+Worked on Clion, not on Linux. Warnings were okay but didnt pass in Linux. Same in arr
